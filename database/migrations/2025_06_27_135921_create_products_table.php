@@ -20,7 +20,7 @@ return new class extends Migration
             $table->decimal('avg_rating')->nullable();
             $table->integer('total_stars')->nullable();
             $table->integer('rating_count')->nullable();
-            $table->string('thumbnail_url');
+            $table->string('thumbnail_url')->nullable();
             $table->integer('stock');
             $table->timestamps();
         });
